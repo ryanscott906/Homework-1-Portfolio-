@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #fffff;
+    border: 2px solid #cccccc;
+}
+
+.heading {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+#about, #portfolio, #contact, #self-description, .footer {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#myname {
+    color: white;
+    background-color: #4aaaa5;
+    *width: 75px;
+}
+
+#nav {
+    list-style-type: none;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+  }
+  
+li:last-child {
+    border-right: none;
+  }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: none;
+    text-decoration: none;
+}
+
+.main-container {
+    background-image: url(../images/hip-square.png);
+    max-width: 960px;
+}
+
+#about-me-container {
+    max-width: 960px;
+    text-align: center;
+}
+
+#portfolio-heading {
+    text-align: center;
+}
+
+.background {
+    background-size: cover;
+}
+
+.project-image {
+    width: 160px;
+    height: 110px;
+    float: left;
+}
+
+#self-image {
+    width: 160px;
+    height: 110px;
+}
+
+#self-description {
+    clear: both;
+    float: left;
+}
+
+#form-container {
+    text-align: center;
+}
+
+#submit {
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+}
